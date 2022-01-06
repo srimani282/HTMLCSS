@@ -1,48 +1,59 @@
 .button {
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    color: blue;
-    font-size: 24px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  color: blue;
+  font-size: 24px;
 }
 
 .primary {
-    color: blue;
-    font-size: 70px;
+  color: blue;
+  font-size: 70px;
 }
 
 table,
 td,
 th,
 tr {
-    border: 1px solid black;
-    margin: 10px;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 .post-container {
+  display: flex;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 20px;
+  border: 20px solid yellow;
+  background-color: aqua;
+}
+
+.post {
+  width: 30%;
+}
+
+.form {
+  margin: 50px;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.form-container {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  background-color: violet;
+}
+
+@media only screen and (max-width: 600px) {
+  .post-container {
     display: flex;
     padding: 40px;
     margin: 30px;
     border-radius: 20px;
     border: 20px solid yellow;
-    background-color: aqua;
-}
-
-.post {
-    width: 30%;
-}
-
-.form {
-    margin: 50px;
-    border: 3px solid black;
-    padding: 20px;
-}
-
-.form-container {
-    margin-left: 40px;
-    margin-bottom: 40px;
-}
-
-.form-control {
-    background-color: violet;
+    background-color: pink;
+  }
 }
