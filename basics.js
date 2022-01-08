@@ -73,6 +73,6 @@ var name = { name: "naresh", class: "10th" };
 
 console.log(name.class);
 
-var arr = [12, 20, 30, 40];
+var arr = [12, 20, 30, 40]; // 0 1 2 3
 
 console.log(arr[1]);
