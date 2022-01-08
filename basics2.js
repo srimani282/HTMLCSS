@@ -67,3 +67,15 @@ var { name, profession, lang } = obj;
 var { name, profession, lang } = obj2;
 
 console.log(name, obj.lang);
+
+// *
+// %
+// /
+
+console.log(3 * 3);
+console.log(4 % 2);
+console.log(10 / 3);
+
+//program to loop trough a number array
+//check if number multiple of 2 console,log red if num is miltiple of 3 console.log pink
+//if number is multiple of both 2 and 3 console.log green else black
